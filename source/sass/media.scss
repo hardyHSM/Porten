@@ -154,10 +154,8 @@ $gutters-phone: 7px;
         width: 100%;
         transition: all .3s linear;
         text-align: center;
-        visibility: hidden;
-    }
-    .navigation--active {
-        
+        //visibility: hidden;
+        height: 0;
     }
     .main-header {
         position: fixed;
@@ -240,6 +238,13 @@ $gutters-phone: 7px;
     .main-header__row-top {
         padding-right: 15px;
         padding-left: 15px;
+    }
+    .main-footer__about {
+        display: none;
+    }
+    .logotype {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 @media screen and(max-width: 380px) {
