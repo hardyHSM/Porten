@@ -1,0 +1,25 @@
+.categories-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -20px;
+    margin-bottom: -20px;
+}
+
+.categories-list__link {
+    display: block;
+    padding: 10px 20px;
+    font-family: $main-font;
+    font-size: 14px;
+    line-height: 150%;
+    color: $grey-light_2;
+    background-color: $grey-light;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    transition: all .05s linear;
+    &:hover {
+        text-decoration: none;
+        color:  $grey-light;
+        background-color: $grey-light_2;
+    }
+}

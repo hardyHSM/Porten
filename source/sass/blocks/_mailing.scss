@@ -1,0 +1,33 @@
+.mailing__descr {
+    font-family: $main-font;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+
+.mailing-form__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.mailing-form__input {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.4);
+    font-family: PT Sans;
+    font-size: 14px;
+    color: $grey-light_2;
+    flex-grow: 1;
+    border: 0;
+    outline: 0;
+    &::placeholder {
+        font-family: PT Sans;
+        font-size: 14px;
+        color: $grey-light_2;
+    }
+}
+
+.mailing-form__button {
+    max-width: 140px;
+    flex-shrink: 0;
+}

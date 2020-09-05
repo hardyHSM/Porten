@@ -1,0 +1,40 @@
+.s-collection-new {
+    display: flex;
+    margin-top: -30px;
+
+}
+
+.s-collection-new__title {
+    margin-bottom: 30px;
+}
+.s-collection-new__descr {
+    margin-bottom: 50px;
+    font-family: $main-font;
+    font-size: 14px;
+    line-height: 150%;
+
+    color: $white-color;
+}
+
+
+.s-collection-new__content {
+    text-align: center;
+    max-width: 55%;
+    margin: 0 auto;
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+.s-collection-new__left {
+    width: 45%;
+}
+
+.s-collection-new__right {
+    width: 55%;
+}
+
+.s-collection-new__left {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10%;
+}

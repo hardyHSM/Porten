@@ -1,0 +1,19 @@
+.g-title {
+    font-family: $title-font_bold;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 45px;
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 120px;
+        height: 1px;
+        background-color: $white-color;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

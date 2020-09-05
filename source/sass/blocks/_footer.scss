@@ -1,0 +1,46 @@
+
+.main-footer__top {
+    padding-top: 80px;
+    padding-bottom: 95px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.main-footer__title {
+    font-family: $title-font;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.main-footer__about {
+    font-family: PT Sans;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: $white-color;
+    max-width: 350px;
+}
+
+.main-footer__categories {
+    max-width: 350px;
+}
+
+.main-footer__mailing {
+    max-width: 350px;
+}
+
+.main-footer__row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+
+.main-footer__bottom {
+    padding: 20px 0px;
+}
+

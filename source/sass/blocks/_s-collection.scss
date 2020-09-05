@@ -1,0 +1,19 @@
+.s-collecction {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+}
+
+.s-collecction__collection {
+    text-align: center;
+}
+
+.s-collection__title {
+    margin-bottom: 30px;
+}
